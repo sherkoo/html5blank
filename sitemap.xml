@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+  <url>
+    <loc>http://www.site.com</loc>
+    <changefreq>monthly</changefreq>
+    <lastmod>2014-10-22T23:55:42+01:00</lastmod>
+    <priority>1</priority>
+    <image:image>
+      <image:title>Title of Image</image:title>
+      <image:loc>http://site.com/example-image.jpg</image:loc> 
+    </image:image>
+    <image:image>
+      <image:title>Title of Image</image:title>
+      <image:loc>http://site.com/example-image.jpg</image:loc> 
+    </image:image> 
+    <image:image>
+      <image:loc>http://site.com/example-image.jpg</image:loc> 
+    </image:image> 
+    <image:image>
+      <image:title>Title of Image</image:title>
+      <image:loc>http://site.com/example-image.jpg</image:loc> 
+    </image:image>  
+  </url>
+  <url>
+    <loc>http://site.com/page2</loc>
+    <changefreq>daily</changefreq>
+    <lastmod>2014-10-22T23:55:42+01:00</lastmod>
+    <priority>0.51</priority>
+  </url>
+</urlset>

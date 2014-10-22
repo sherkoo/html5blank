@@ -25,6 +25,6 @@
     <loc>http://site.com/page2</loc>
     <changefreq>daily</changefreq>
     <lastmod>2014-10-22T23:55:42+01:00</lastmod>
-    <priority>0.51</priority>
+    <priority>0.5</priority>
   </url>
 </urlset>

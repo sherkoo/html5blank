@@ -11,3 +11,4 @@ Includes
 - Twitter card
 - Open graph
 - Meta info
+- SCSS architecture

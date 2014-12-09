@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.site.com</loc>
     <changefreq>monthly</changefreq>
@@ -7,19 +7,19 @@
     <priority>1</priority>
     <image:image>
       <image:title>Title of Image</image:title>
-      <image:loc>http://site.com/example-image.jpg</image:loc> 
+      <image:loc>http://site.com/example-image.jpg</image:loc>
     </image:image>
     <image:image>
       <image:title>Title of Image</image:title>
-      <image:loc>http://site.com/example-image.jpg</image:loc> 
-    </image:image> 
+      <image:loc>http://site.com/example-image.jpg</image:loc>
+    </image:image>
     <image:image>
-      <image:loc>http://site.com/example-image.jpg</image:loc> 
-    </image:image> 
+      <image:loc>http://site.com/example-image.jpg</image:loc>
+    </image:image>
     <image:image>
       <image:title>Title of Image</image:title>
-      <image:loc>http://site.com/example-image.jpg</image:loc> 
-    </image:image>  
+      <image:loc>http://site.com/example-image.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>http://site.com/page2</loc>

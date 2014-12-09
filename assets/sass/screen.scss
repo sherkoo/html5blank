@@ -1,12 +1,10 @@
-/* ==================================================
+/*
+ * Screen.scss
+ * Base for all @import's
+ */
 
-Screen.scss
-Base for all @imports
-
-================================================== */
-
-@import "/patterns/patterns.scss";
-@import "/modules/modules.scss";
-@import "/vendor/vendor.scss";
-@import "/layouts/layouts.scss";
-@import "/components/components.scss";
+@import "/modules/_base.scss";
+@import "/modules/_modules.scss";
+@import "/vendor/_vendor.scss";
+@import "/layouts/_layouts.scss";
+@import "/components/_components.scss";

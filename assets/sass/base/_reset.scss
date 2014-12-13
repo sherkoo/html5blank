@@ -1,0 +1,199 @@
+/**
+ * Reset
+ */
+
+*,
+*:after,
+*:before{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body{
+  font-size: 100%;
+  line-height: 1.5em;
+  font-family: $body-font;
+  background: #fff;
+  color: #888;
+}
+
+::selection{
+  color: #fff;
+  background: #000;
+}
+
+::-moz-selection{
+  color: #fff;
+  background: #000;
+}
+
+/**
+ * HTML5
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * Links
+ */
+
+a{
+  color: $red;
+  text-decoration: none;
+  -webkit-transition: all .25s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
+  -ms-transition: all .25s ease-in-out;
+  -o-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+}
+
+a:hover{
+  color: #000;
+}
+
+/**
+ * Lists
+ */
+
+ul,
+li{
+  list-style: none;
+}
+
+/**
+ * Tables
+ */
+
+th, td {
+  text-align: left;
+  vertical-align: top;
+  padding: 0;
+}
+
+th {
+  width:20%;
+  font-weight: normal;
+  font-size: 0.875em;
+  padding:0 0.643em 0.571em 0.643em;
+  border-bottom:0.071em solid #ccc;
+}
+
+td {
+  font-size: 0.75em;
+  padding: 0.333em 0.75em 0.417em 0.75em;
+  border-bottom: 0.083em solid #ccc;
+  line-height: 1em;
+}
+
+/**
+ * Images
+ */
+
+img{
+  display: block;
+  max-width: 100%;
+}
+
+/**
+ * Typography
+ */
+
+p{
+  margin-bottom: $spacing;
+}
+
+h1,h2,h3,h4,h5,h6{
+  color: #000;
+  margin-bottom: $spacing;
+  font-family: $heading-font;
+}
+
+h1{
+  font-size: $h1;
+}
+
+h2{
+  font-size: $h2;
+}
+
+h3{
+  font-size: $h3;
+}
+
+h4{
+  font-size: $h4;
+}
+
+h5{
+  font-size: $h5;
+}
+
+h6{
+  font-size: $h6;
+}
+
+small, sub, sup, em{
+  font-size: 0.8em;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
+}
+
+/**
+ * Forms
+ */
+
+::-webkit-input-placeholder {
+  color: #83838e;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  color: #83838e;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  color: #83838e;
+}
+
+:-ms-input-placeholder {
+  color: #83838e;
+}

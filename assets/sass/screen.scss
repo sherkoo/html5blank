@@ -3,8 +3,21 @@
  * Base for all @import's
  */
 
-@import "/modules/_base.scss";
-@import "/modules/_modules.scss";
-@import "/vendor/_vendor.scss";
-@import "/layouts/_layouts.scss";
-@import "/components/_components.scss";
+// Base
+@import "base/_vars.scss";
+@import "base/_reset.scss";
+@import "base/_grid.scss";
+
+// Modules
+@import "modules/_modules.scss";
+
+// Layouts
+@import "layouts/_header.scss";
+@import "layouts/_footer.scss";
+
+// Components
+@import "components/_positioning.scss";
+@import "components/_typography.scss";
+
+// Vendor
+@import "vendor/_vendor.scss";

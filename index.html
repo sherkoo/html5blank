@@ -67,7 +67,7 @@
   <link rel="apple-touch-icon" sizes="114x114" href="http://example.com/myicon.png">
 
   <!-- Style -->
-  <link rel="stylesheet" href="assets/css/style.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="assets/css/screen.css" type="text/css" media="screen">
 
   <!-- No Script -->
   <noscript>
@@ -77,94 +77,69 @@
 
 <body>
 
-  <!-- main-header -->
-  <header id="main-header" role="banner">
-    <h1 id="logo">Logo</h1>
-    <!-- main-nav -->
-    <nav id="main-nav" role="navigation">
-      <ul>
-        <li><a href="#">link</a></li>
-        <li><a href="#">link</a></li>
-        <li><a href="#">link</a></li>
-        <li><a href="#">link</a></li>
-      </ul>
-    </nav>
-    <!-- /main-nav -->
-  </header>
-  <!-- /main-header -->
+<!-- main-header -->
+<header id="main-header" role="banner">
+  <div class="container clearfix">
+    <div class="col-100">
+      <h1 id="logo">Logo</h1>
+      <!-- main-nav -->
+      <nav id="main-nav" role="navigation">
+        <ul>
+          <li><a href="#">link</a></li>
+          <li><a href="#">link</a></li>
+          <li><a href="#">link</a></li>
+          <li><a href="#">link</a></li>
+        </ul>
+      </nav>
+      <!-- /main-nav -->
+    </div>
+  </div>
+</header>
+<!-- /main-header -->
 
-  <h1>Heading H1</h1>
-  <h2>Heading h2</h2>
-  <h3>Heading h3</h3>
-  <h4>Heading h4</h4>
-  <h5>Heading h5</h5>
-  <h6>Heading h6</h6>
+<div class="container">
+  <div class="col-100">
+    <h1>Heading H1</h1>
+    <h2>Heading h2</h2>
+    <h3>Heading h3</h3>
+    <h4>Heading h4</h4>
+    <h5>Heading h5</h5>
+    <h6>Heading h6</h6>
 
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+</div>
 
-  <!-- main -->
-  <main role="main">
-    <section id="entries">
-      <article>
-        <header>
-          <a href="#" title="entry title" rel="bookmark"><h3>Entry Title</h3></a>
-          <p>Posted by: Guy Smiley</p>
-          <small><time datetime="2014-02-14 20:32">Feb 14, 2014</time></small>
-        </header>
-        <p>Lorem ipsum dolor sit amet, conseceprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Eeserunt mollit anim id est laborum.</p>
-        <footer>
-          <a href="#" rel="bookmark">View Article</a>
-          <p><time datetime="2012-03-01 20:32"></time></p>
-        </footer>
-      </article>
-    </section>
-    <section id="lists">
-      <h3>Section Title</h3>
-      <ul>
-        <li><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
-      </ul>
-    </section>
-  </main>
-  <!-- /main -->
+<!-- container -->
+<div class="container">
 
-  <table>
-    <thead>
-      <tr>
-        <th>Title</th>
-        <th>Title</th>
-        <th>Title</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Table col</td>
-        <td>Table col</td>
-        <td>Table col</td>
-      </tr>
-      <tr>
-        <td>Table col</td>
-        <td>Table col</td>
-        <td>Table col</td>
-      </tr>
-      <tr>
-        <td>Table col</td>
-        <td>Table col</td>
-        <td>Table col</td>
-      </tr>
-    </tbody>
-  </table>
+<!-- main -->
+<main role="main" class="clearfix">
+  <!-- entries -->
+  <section id="entries" class="col-75">
+    <article class="panel">
+      <header>
+        <h2 class="panel-title"><a href="#" title="entry title" rel="bookmark">Entry Title</a></h2>
+        <p>Posted by: Guy Smiley</p>
+        <small><time datetime="2014-02-14 20:32">Feb 14, 2014</time></small>
+      </header>
+      <p>Lorem ipsum dolor sit amet, conseceprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Eeserunt mollit anim id est laborum.</p>
+      <footer>
+        <a href="#" rel="bookmark">View Article</a>
+        <p><time datetime="2012-03-01 20:32"></time></p>
+      </footer>
+    </article>
+  </section>
+  <!-- /entries -->
 
   <!-- sidebar -->
-  <aside id="sidebar">
+  <aside id="sidebar" class="col-25">
     <h3>Sidebar</h3>
     <ul>
       <li><a href="#">Link Name</a></li>
@@ -175,35 +150,79 @@
     </ul>
   </aside>
   <!-- /sidebar -->
+</main>
+<!-- /main -->
 
-  <a href="#">Link Name</a>
+<section id="lists">
+  <h3>Section Title</h3>
+  <ul>
+    <li><a href="#">Link</a></li>
+    <li><a href="#">Link</a></li>
+    <li><a href="#">Link</a></li>
+    <li><a href="#">Link</a></li>
+  </ul>
+</section>
 
-  <!-- main-footer -->
-  <footer id="main-footer">
-    <ul>
-      <li><a href="#">footer links</a></li>
-      <li><a href="#">footer links</a></li>
-      <li><a href="#">footer links</a></li>
-      <li><a href="#">footer links</a></li>
-      <li><a href="#">footer links</a></li>
-    </ul>
-  </footer>
-  <!-- /main-footer -->
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Title</th>
+      <th>Title</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Table col</td>
+      <td>Table col</td>
+      <td>Table col</td>
+    </tr>
+    <tr>
+      <td>Table col</td>
+      <td>Table col</td>
+      <td>Table col</td>
+    </tr>
+    <tr>
+      <td>Table col</td>
+      <td>Table col</td>
+      <td>Table col</td>
+    </tr>
+  </tbody>
+</table>
 
-  <!-- Scripts -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script type="text/javascript" src="assets/js/scripts.js"></script>
-  <script type="text/javascript" src="assets/js/modernizr.min.js"></script>
+</div>
+<!-- /container -->
 
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<!-- main-footer -->
+<footer id="main-footer">
+  <div class="container clearfix">
+    <div class="col-100">
+      <ul>
+        <li><a href="#">footer links</a></li>
+        <li><a href="#">footer links</a></li>
+        <li><a href="#">footer links</a></li>
+        <li><a href="#">footer links</a></li>
+        <li><a href="#">footer links</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<!-- /main-footer -->
 
-    ga('create', 'UA-xxxxxxxx-x', 'auto');
-    ga('send', 'pageview');
-  </script>
+<!-- Scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/scripts.js"></script>
+<script type="text/javascript" src="assets/js/modernizr.min.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-xxxxxxxx-x', 'auto');
+  ga('send', 'pageview');
+</script>
 
   <!--[if lt IE 7]>
       <p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
